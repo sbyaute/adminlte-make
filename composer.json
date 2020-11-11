@@ -1,0 +1,24 @@
+{
+  "name": "sbyaute/adminlte-make",
+  "type": "symfony-bundle",
+  "description": "AdminLTE Make helps you create controllers and templates boostraped for AdminLTE theme bundle",
+  "keywords": [ "adminlte", "crud" ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.2.5",
+    "symfony/twig-bundle": "^5.1",
+    "symfony/console": "5.1.*",
+    "symfony/form": "5.1.*",
+    "symfony/security-bundle": "5.1.*",
+    "symfony/translation": "5.1.*",
+    "symfony/validator": "5.1.*",
+    "symfony/maker-bundle": "^1.0",
+    "sensio/framework-extra-bundle": "^5.1",
+    "doctrine/annotations": "^1.0",
+    "kevinpapst/adminlte-bundle": "^3.2",
+    "omines/datatables-bundle": "^0.5.1"
+  },
+  "autoload": {
+    "psr-4": { "Sbyaute\\AdminLTEMakeBundle\\": "src/" }
+  }
+}
